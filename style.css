@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* CSS Variables */
+:root {
+    --light-blue: #eaf5ff;
+    --medium-blue: #b8dcf5;
+    --blue: #397dbb;
+    --dark-blue: #1d3557;
+    --white: #ffffff;
+    --text: #40566b;
+}
+
+/* General Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--light-blue);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--white);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid var(--medium-blue);
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--medium-blue);
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Sections */
+section {
+    background-color: var(--white);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+    color: var(--dark-blue);
+    font-size: 36px;
+}
+
+h2 {
+    color: var(--blue);
+    font-size: 25px;
+    border-bottom: 2px solid var(--medium-blue);
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: var(--dark-blue);
+    font-size: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--dark-blue);
+}
+
+/* About Section */
+#about {
+    border-left: 4px solid var(--blue);
+}
+
+/* Projects Section */
+#projects {
+    border-left: 4px solid var(--medium-blue);
+}
+
+article {
+    background-color: var(--light-blue);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Skills Section */
+#skills {
+    border-left: 4px solid var(--blue);
+}
+
+#skills ul {
+    padding-left: 25px;
+}
+
+#skills li {
+    padding: 5px;
+}
+
+/* Contact Section */
+#contact {
+    border-left: 4px solid var(--medium-blue);
+}
+
+address {
+    font-style: normal;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
