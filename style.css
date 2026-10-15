@@ -43,11 +43,14 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav a {
