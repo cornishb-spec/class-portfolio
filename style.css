@@ -118,6 +118,13 @@ a:hover {
     border-left: 4px solid var(--blue);
 }
 
+/* Ai Prompt:
+Update only my style.css file.
+USe CSS Grid for my projects section.
+Keep the projects heading across the full row.
+Use one column on mobile and two columns on larger screens. 
+Do not change my HTML. */
+
 /* Projects Section */
 #projects {
     border-left: 4px solid var(--medium-blue);
@@ -172,6 +179,14 @@ footer p {
 }
 
 /* Responsive Design */
+
+
+/* Small screens */
+@media (min-width: 400px) {
+    nav ul {
+        gap: 25px;
+    }
+}
 
 /* Medium Screens */
 @media (min-width: 600px) {
