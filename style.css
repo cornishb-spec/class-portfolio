@@ -5,11 +5,12 @@
 :root {
     --light-blue: #eaf5ff;
     --medium-blue: #b8dcf5;
-    --blue: #397dbb;
+    --blue: #245b91;
     --dark-blue: #1d3557;
     --white: #ffffff;
     --text: #40566b;
 }
+
 
 /* General Styling */
 body {
