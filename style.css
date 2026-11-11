@@ -207,3 +207,29 @@ footer p {
         max-width: 1000px;
     }
 }
+
+/* Dark Mode */
+body.dark-mode {
+    --light-blue: #152238;
+    --medium-blue: #365575;
+    --blue: #a8d4ff;
+    --dark-blue: #d8eaff;
+    --white: #223650;
+    --text: #e4edf7;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+#theme-toggle:hover {
+    background-color: var(--dark-blue);
+}
