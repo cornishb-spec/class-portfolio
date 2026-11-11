@@ -9,3 +9,11 @@ themeToggle.addEventListener("click", function() {
         themeToggle.textContent = "Dark Mode";
     }
 });
+
+/* Scroll Animation */
+ScrollReveal().reveal("main section", {
+    distance: "30px",
+    duration: 800,
+    origin: "bottom",
+    interval: 150
+});
